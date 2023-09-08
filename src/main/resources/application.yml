@@ -1,0 +1,12 @@
+
+config:
+  aws:
+    region: us-east-1
+    dynamodb:
+        url: http://localhost:4566
+        secret-key: teste
+        access-key: teste
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
